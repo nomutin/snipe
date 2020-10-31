@@ -1,0 +1,54 @@
+{
+    "graphics": [
+        "\\begin{center}\n",
+        "    \\includegraphics[width=mm]{}\n",
+        "    \\caption{}\n",
+        "    \\label{}\n",
+        "\\end{center}"
+    ],
+    "figure": [
+        "\\begin{figure}[ht]\n",
+        "    \\begin{center}\n",
+        "        \\includegraphics[width=mm]{}\n",
+        "        \\caption{}\n",
+        "        \\label{}\n",
+        "    \\end{center}\n",
+        "\\end{center}"
+    ],
+    "jsarticle": [
+        "\\documentclass[a4paper,11pt]{jsarticle}\n",
+        "\n",
+        "\\usepackage[top=12truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}\n",
+        "\n",
+        "\\usepackage[dvipdfmx]{graphicx} %\u753b\u50cf\u51e6\u7406\n",
+        "\\usepackage{amsmath}            %align-cases\u3067\u9023\u7acb\u65b9\u7a0b\u5f0f, eqnarray\u3067\u30ab\u30c3\u30b3\u63c3\u3048\n",
+        "\\usepackage{bm}                 %\\bm{}\u3067\u30d9\u30af\u30c8\u30eb\n",
+        "\\usepackage{caption}            %caption\u76f4\u524d\u3067\\captionsetup{labelformat=empty,labelsep=none}\u3067\"\u56f3:\"\u7121\u52b9\n",
+        "\\usepackage{amssymb}            %\\therefore \\because\n",
+        "\\usepackage{url}                %\\url{}\n",
+        "\n",
+        "\n",
+        "\\pagestyle{empty}\n",
+        "\n",
+        "\\title{}\n",
+        "\\author{}\n",
+        "\\date{\\vspace{-10mm}}\n",
+        "\n",
+        "\\begin{document}\n",
+        "\\maketitle\n",
+        "\n",
+        "\n",
+        "\\end{document}"
+    ],
+    "minipage": [
+        "\\begin{figure}[ht]\n",
+        "    \\begin{minipage}{0.5\\hsize}\n",
+        "\n",
+        "    \\end{minipage}\n",
+        "\n",
+        "    \\begin{minipage}{0.5\\hsize}\n",
+        "\n",
+        "    \\end{minipage}\n",
+        "\\end{figure}"
+    ]
+}
